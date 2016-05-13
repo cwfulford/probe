@@ -8,5 +8,5 @@ ssh -l $user $host "
 	free
 	df -Pk
 	ifconfig -a
-	iptables -L
+	sudo iptables -L
 "
