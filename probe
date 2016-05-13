@@ -9,4 +9,7 @@ ssh -l $user $host "
 	df -Pk
 	ifconfig -a
 	sudo iptables -L
+	netstat -nr
+	netstat -na
+	cat /etc/resolv.conf
 "
