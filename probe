@@ -5,5 +5,5 @@ while [ $# -gt 0 ];do
 	esac
 done
 ssh -l $user $host "
-	memfree
+	free
 "
