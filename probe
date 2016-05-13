@@ -6,4 +6,5 @@ while [ $# -gt 0 ];do
 done
 ssh -l $user $host "
 	free
+	df -Pk
 "
