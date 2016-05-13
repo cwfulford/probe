@@ -7,4 +7,5 @@ done
 ssh -l $user $host "
 	free
 	df -Pk
+	ifconfig -a		
 "
